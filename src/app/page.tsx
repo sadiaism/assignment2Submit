@@ -7,8 +7,8 @@ const homePage = ()=>{
   return(
     <div>
 <Header></Header>
-<Footer></Footer>
 <Section page={<p>This is my hero section content</p>} />
+<Footer></Footer>
     </div>
   )
 }
