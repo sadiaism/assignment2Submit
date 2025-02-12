@@ -4,11 +4,11 @@ import cssstyle from "./Header.module.css"
 const Header =() => {
     return (
         <header className={cssstyle.h1}>
-            <span className=" text-2xl font-bold">Header</span>
+            <span className=" text-[32px] font-bold">Header</span>
         <div>
             <nav>
              
-             <ul className="flex-gap-5  py-11 ">
+             <ul className="flex-gap-5  py-11 text-[24px] font-bold">
                 
                 <li className="hover:text-red-800"><Link href="/Home">Home</Link></li>
                 <li className="hover:text-red-800"><Link href="/About">About</Link></li>
